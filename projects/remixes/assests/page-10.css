@@ -1,0 +1,21 @@
+body {
+  background-color: #000000;
+  color: white;
+
+}
+.center{
+  position:absolute;
+      height: X px;
+      width: Y px;
+      left:50%;
+      top:50%;
+      margin-top:- X/2 px;
+      margin-left:- Y/2 px;
+}
+div {
+  opacity: 100;
+}
+
+p {
+    font-family: "Times New Roman", Times, serif;
+}
