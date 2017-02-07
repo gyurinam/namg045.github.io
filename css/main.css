@@ -2,8 +2,10 @@ body {
   color: white;
   background-color: #000000
 }
-.content{
-
+.solid{
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
 }
 .center{
   position:absolute;
@@ -16,14 +18,13 @@ body {
 }
 
 div {
-  opacity: .70;
+  opacity: 1;
 }
 
 
 p {
   text-align: center;
-    font-size: 10px;
+    font-size: 13px;
     font-family: "Arial", Arial, sans-serif;
 
 }
-
