@@ -1,238 +1,188 @@
 body {
-  background-color: black;
+  background-color: white;
 }
 
 .frame {
-  width: 1000px;
-  height: 600px;
-  background: bisque;
-  margin: 30px auto;
-  position: relative;
+  width: 1000px;
+  height: 600px;
+  background: #E9BEAB;
+  margin: 30px auto;
+  position: relative;
 }
 
-.table{
-  width: 700px;
-  height: 55px;
-  background: thistle;
-  margin: 30px auto;
-  position: relative;
-  top: 500px;
+.tablecloth {
+  position:absolute;
+  width:800px;
+  height:100px;
+  background-color:grey;
+  left:100px;
+  bottom:1px;
 }
 
-.book-bottom{
-  width: 220px;
-  height: 20px;
-  border: solid;
-  border-color: black;
-  border-width: 2px;
-  background: paleturquoise;
-  margin: 30px auto;
-  position: absolute;
-  top: 450px;
-  right: 505px;
-}
-
-.book-middle{
-  width: 165px;
-  height: 40px;
-  border: solid;
-  border-color: black;
-  border-width: 2px;
-  background: teal;
-  color: white;
-  font-size: 18px;
-  text-align: center;
-  margin: 30px auto;
-  position: absolute;
-  top: 410px;
-  right: 560px;
-}
-
-.book-top{
-  width: 115px;
-  height: 30px;
-  color: black;
-  font-size: 10px;
-  background: white;
-  border: solid;
-  border-color: black;
-  border-width: 2px;
-  margin: 30px auto;
-  position: absolute;
-  top: 376px;
-  right: 605px;
-}
-
-.vase {
-  width: 105px;
-  height: 155px;
-  background: white;
-  margin: 30px auto;
-  position: absolute;
-  top: 315px;
-  right: 305px;
-  border-radius: 45px;
-}
-.vase-bottom {
-  width: 105px;
-  height: 45px;
-  background: white;
-  margin: 30px auto;
-  position: absolute;
-  top: 425px;
-  right: 305px;
-  border-radius: 5%;
-}
-
-.vase-top {
-  width: 55px;
-  height: 75px;
-  background: white;
-  margin: 30px auto;
-  position: absolute;
-  top: 290px;
-  right: 330px;
-  border-radius: 10%;
-}
-
-.flower-stem {
-  width: 11px;
-  height: 45px;
-  background: mediumseagreen;
-  margin: 30px auto;
-  position: absolute;
-  top: 245px;
-  right: 337px;
-}
-
-.flower-stem2 {
-  width: 7px;
-  height: 45px;
-  background: mediumseagreen;
-  margin: 30px auto;
-  position: absolute;
-  top: 255px;
-  right: 378px;
-  transform: rotate(-50deg);
+.table {
+  position:absolute;
+  background-color:#d1d1d1;
+  width:800px;
+  height:20px;
+  left:100px;
+  bottom:100px;
 }
 
 .candle {
-  width: 35px;
-  height: 40px;
-  background: indigo;
-  margin: 30px auto;
-  position: absolute;
-  top: 430px;
-  right: 395px;
-  border-radius: 10%;
+  position: absolute;
+  background-color: ;
+  width: 42px;
+  height: 48px;
+  left: 563px;
+  bottom: 120px;
 }
 
-.petal {
-border-radius: 5px 90%;
-  background-color: darkviolet;
-  height: 40px;
-  margin: auto;
-  width: 30px;
-  position: absolute;
-  top: 230px;
-  right: 330px;
-
+.candle-glass {
+  position: absolute;
+  background-color: #F2F1F0;
+  width: 42px;
+  height: 57px;
+  left: 563px;
+  bottom: 120px;
+  border-top-left-radius:2px;
+  border-top-right-radius:2px;
 }
 
-.petal2 {
-border-radius: 5px 90%;
-  background-color: mediumpurple;
-  height: 40px;
-  margin: auto;
-  width: 30px;
-  position: absolute;
-  top: 230px;
-  right: 320px;
-  transform: rotate(45deg);
+.vase {
+  position: absolute;
+  background-color: #f9f9d1;
+  width: 100px;
+  height: 157px;
+  left: 600px;
+  bottom: 120px;
+  border-radius: 10px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
  }
 
-  .petal3 {
-  border-radius: 5px 90%;
-    background-color: darkviolet;
-    height: 40px;
-    margin: auto;
-    width: 30px;
-    position: absolute;
-    top: 230px;
-    right: 315px;
-    transform: rotate(90deg);
+ .vase-top {
+   position: absolute;
+   background-color: #f9f9d1;
+   width: 42px;
+   height: 135px;
+   left: 628px;
+   bottom: 177px;
+   border-radius: 10px;
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
 }
 
-.petal4 {
-border-radius: 5px 90%;
-  background-color: mediumpurple;
-  height: 40px;
-  margin: auto;
-  width: 30px;
-  position: absolute;
-  top: 242px;
-  right: 315px;
-  transform: rotate(135deg);
+.book-bottom {
+  position: absolute;
+  background-color: #D9E5EC;
+  width: 248px;
+  height: 31px;
+  bottom: 120px;
+  left: 290px;
+ }
+
+ .book-middle {
+   position: absolute;
+   background-color: #00BEB5;
+   width: 221px;
+   height: 47px;
+   bottom: 151px;
+   left: 290px;
+  }
+
+.book-top {
+   position: absolute;
+   background-color: #F6EBD8;
+   width: 140px;
+   height: 24px;
+   bottom: 198px;
+   left: 298px;
 }
 
-.petal5 {
-border-radius: 5px 90%;
-  background-color: darkviolet;
-  height: 40px;
-  margin: auto;
-  width: 30px;
-  position: absolute;
-  top: 250px;
-  right: 310px;
-  transform: rotate(180deg);
+
+.flower1 {
+  position: absolute;
+  background-color: purple;
+  width: 20px;
+  height: 23px;
+  left: 620px;
+  bottom: 364px;
+  border-radius: 100px;
+  transform: rotate(-25deg);
 }
 
-.petal6 {
-border-radius: 5px 90%;
-  background-color: mediumpurple;
-  height: 40px;
-  margin: auto;
-  width: 30px;
-  position: absolute;
-  top: 255px;
-  right: 325px;
-  transform: rotate(225deg);
+.flower-stem1 {
+  position: absolute;
+  background-color: lightgreen;
+  width: 6px;
+  height: 69px;
+  left: 632px;
+  bottom: 311px;
+  transform: rotate(165deg);
 }
 
-.petal7 {
-border-radius: 5px 90%;
-  background-color: darkviolet;
-  height: 40px;
-  margin: auto;
-  width: 30px;
-  position: absolute;
-  top: 245px;
-  right: 335px;
-  transform: rotate(270deg);
+.flower1yellow {
+  position: absolute;
+  background-color: yellow;
+  width: 10px;
+  height: 15px;
+  left: 624px;
+  bottom: 379px;
+  border-radius: 100px;
+  transform: rotate(246deg);
+}
+.petal1 {
+    width: 20px;
+    height: 30px;
+    position: absolute;
+    bottom: 370px;
+    left: 630px;
+    border: 20px solid #7e56a0;
+    box-shadow: -6px 6px 0px 0px rgba(0,0,0,0.1);
+    border-radius: 100% 0;
+}
+.petal2 {
+    width: 10px;
+    height: 20px;
+    position: absolute;
+    bottom: 375px;
+    left: 610px;
+    border: 20px solid #7e56a0;
+    box-shadow: -6px 6px 0px 0px rgba(0,0,0,0.1);
+    border-radius: 0 100%;
+    transform: rotate(230deg);
+}
+.flower2 {
+  position: absolute;
+  background-color: purple;
+  width: 60px;
+  height: 23px;
+  left: 653px;
+  bottom: 338px;
+  border-radius: 100px;
+  transform: rotate(10deg);
 }
 
-.petal8 {
-border-radius: 5px 90%;
-  background-color: mediumpurple;
-  height: 40px;
-  margin: auto;
-  width: 30px;
-  position: absolute;
-  top: 237px;
-  right: 335px;
-  transform: rotate(315deg);
+.flower-stem2 {
+  position: absolute;
+  background-color: lightgreen;
+  width: 6px;
+  height: 60px;
+  left: 653px;
+  bottom: 299px;
+  transform: rotate(10deg)
 }
 
-.flower{
-border-radius: 5px 90%;
-  background-color: mediumpurple;
-  height: 50px;
-  margin: auto;
-  width: 20px;
-  position: absolute;
-  top: 290px;
-  right: 397px;
-  transform: rotate(215deg);
+.flower2yellow {
+  position: absolute;
+  background-color: yellow;
+  width: 10px;
+  height: 10px;
+  left: 673px;
+  bottom: 351px;
+  border-radius: 300px;
+  transform: rotate(105deg);
 }
+
 
 /* Your CSS goes here */
