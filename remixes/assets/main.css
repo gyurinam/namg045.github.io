@@ -1,0 +1,74 @@
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: times;
+  font-size: 40px;
+}
+
+.content {
+  max-width: 500px;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 1.5;
+}
+
+.full {
+  height: 100vh;
+}
+
+.gradient {
+  background: -webkit-linear-gradient(12deg, black, white, black, white, black, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.alternate:nth-child(odd) {
+  color: #000;
+}
+
+.upsidedown-rows:nth-child(even) {
+  transform: rotateY(180deg);
+  transform-origin: center;
+}
+
+.erase {
+  color: #000;
+}
+
+.alternate:nth-child(odd):hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+.archive {
+  font-family: arial;
+  font-size: 13px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.credit {
+  max-width: 400px;
+  margin: 40px auto 0 auto;
+}
+
+.version {
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.archive a:link {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px dotted;
+}
+
+.archive a:visited {
+  color: #fff;
+}
