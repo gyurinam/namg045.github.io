@@ -1,0 +1,38 @@
+html {
+    height: 900px;
+    background: red;
+    background: -webkit-linear-gradient(red, yellow);
+
+}
+
+h1 {
+  color: orange;
+  text-shadow: 2px 2px 5px yellow;
+  font-family: 'futura';
+  text-align: center;
+  font-size: 55px
+}
+
+.title {
+  color: red;
+  font-family: 'futura';
+  font-size:30px;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+}
+
+.floated_img
+{
+    float: top-left;
+}
+
+.grid_element {
+  display: inline-block;
+  width: 200px;
+  height:200px;
+  zoom: 1;         /* for IE */
+  display*:inline; /* for IE */
+}
+
