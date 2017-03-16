@@ -1,5 +1,4 @@
 html {
-    height: 900px;
     background: red;
     background: -webkit-linear-gradient(red, yellow);
 
@@ -13,6 +12,12 @@ h1 {
   font-size: 55px
 }
 
+p {
+  border-style: solid;
+  border-color: #FFFFFF;
+  background-color: white;
+}
+
 .title {
   color: red;
   font-family: 'futura';
@@ -23,16 +28,14 @@ h1 {
   text-align: center;
 }
 
-.floated_img
-{
-    float: top-left;
-}
-
 .grid_element {
   display: inline-block;
   width: 200px;
   height:200px;
-  zoom: 1;         /* for IE */
-  display*:inline; /* for IE */
+  zoom: 1;
+  display*:inline;
 }
 
+img {
+  max-width: 100%;
+}
