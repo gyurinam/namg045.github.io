@@ -1,0 +1,39 @@
+body {
+    background: red;
+    background: -webkit-linear-gradient(red, yellow);
+
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  top: -65px;
+  left: -300px;
+}
+
+
+.col-md-4 {
+  color: orange;
+  text-shadow: 2px 2px 5px yellow;
+  font-family: 'futura';
+  text-align: center;
+  font-size: 55px
+}
+
+p {
+  border-style: solid;
+  border-color: #FFFFFF;
+  background-color: white;
+}
+
+body, a:hover {
+  cursor: url(http://cur.cursors-4u.net/cursors/cur-3/cur204.ani), url(http://cur.cursors-4u.net/cursors/cur-3/cur204.png), progress !important;
+}
+
+h2 {
+  font-weight: bold;
+  position: relative;
+  left: 340px;
+  bottom: -500px;
+}

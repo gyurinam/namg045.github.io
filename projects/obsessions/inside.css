@@ -1,0 +1,23 @@
+html {
+    background: red;
+    background: -webkit-linear-gradient(red, yellow);
+
+}
+
+h1 {
+  color: orange;
+  text-shadow: 2px 2px 5px yellow;
+  font-family: 'futura';
+  text-align: center;
+  font-size: 55px
+}
+
+p {
+  border-style: solid;
+  border-color: #FFFFFF;
+  background-color: white;
+}
+
+img {
+  max-width: 300%;
+}
