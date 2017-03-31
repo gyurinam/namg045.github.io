@@ -1,0 +1,76 @@
+body {
+  color: white;
+  background-color: #000000
+}
+
+.center{
+  position:absolute;
+      height: x px;
+      width: y px;
+      left:45%;
+      top:5%;
+      margin-top:- x/2 px;
+      margin-left:- y/2 px;
+}
+
+div {
+  opacity: .900;
+}
+
+.text {
+  opacity: .90;
+}
+
+.text1 {
+  opacity: .80;
+}
+
+.text2 {
+  opacity: .70;
+}
+
+.text3 {
+  opacity: .60;
+}
+
+.text4 {
+  opacity: .50;
+}
+
+.text5 {
+  opacity: .40;
+}
+
+.text6 {
+  opacity: .30;
+}
+
+.text7 {
+  opacity: .20;
+}
+
+.text8 {
+  opacity: .15;
+}
+
+.text9 {
+  opacity: .10;
+
+}.text10 {
+  opacity: .10;
+}
+
+
+p {
+  text-align: center;
+    font-size: 15px;
+    font-family: "Arial", Arial, sans-serif;
+
+}
+
+.center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

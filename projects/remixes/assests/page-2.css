@@ -1,8 +1,6 @@
 body {
   color: white;
   background-color: #000000
-}
-.content{
 
 }
 .center{
@@ -15,15 +13,18 @@ body {
       margin-left:- y/2 px;
 }
 
-div {
-  opacity: .70;
-}
-
 
 p {
   text-align: center;
     font-size: 10px;
     font-family: "Arial", Arial, sans-serif;
 
+}
+
+.center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
