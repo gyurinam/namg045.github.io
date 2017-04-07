@@ -1,0 +1,40 @@
+body {
+  color: white;
+  background-color: #fc9b8f
+  font-size: 20px;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Arial", Arial, sans-serif;
+}
+
+p {
+  text-align: center;
+    font-size: 15px;
+    font-family: "Arial", Arial, sans-serif;
+
+}
+
+.center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+p {
+   text-align: center;
+    font-size: 15px;
+    font-family: "Arial", Arial, sans-serif;
+
+}
+
+p {
+  color: black;
+  opacity: 0.8;
+  transition: opacity 0.4s;
+}
+
+p:hover {
+  opacity: 1;
+  font-size: 17px;
+}
